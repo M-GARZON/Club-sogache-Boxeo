@@ -1,0 +1,25 @@
+main {
+
+    justify-content: center;
+    padding-top: 300px;
+
+}
+
+main img {
+
+    height: 800px;
+    width: auto;
+
+}
+
+@media (max-width: 768px) { 
+
+    main img {
+
+        height: 300px;
+        width: auto;
+
+    }
+
+
+}

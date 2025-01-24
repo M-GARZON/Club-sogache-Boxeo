@@ -1,0 +1,91 @@
+/* styles.css */
+
+.noticias {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding-top: 200px;
+}
+
+.noticia {
+    display: flex;
+    flex-direction: column;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border: 3px solid #000000;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+}
+
+.noticia-derecha,
+.noticia-izquierda {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+
+
+.noticia .imagen2,
+.noticia .imagen {
+    flex: 1;
+    padding: 35px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.noticia .imagen {
+    flex: 0 1 40%;
+}
+
+.noticia img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.imagen-Logo {
+    width: 300px;
+    height: 300px;
+    border-radius: 50px;
+    margin-left: auto;
+    box-sizing: border-box;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.imagen-gimnasio {
+    float: left;
+    margin-right: 50px;
+    width: 500px;
+    height: 800px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+@media (max-width: 768px) {
+
+
+    .noticias {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        padding-top: 1050px;
+        padding-bottom: 900px;
+    }
+    
+    .noticia{
+
+        width:300px;
+
+    }
+
+
+}

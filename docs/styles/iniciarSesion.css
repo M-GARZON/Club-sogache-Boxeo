@@ -1,0 +1,115 @@
+/* styles.css */
+
+body {
+    background-color: #f0f2f5;
+    /* Light background color for contrast */
+}
+
+.login-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    /* Full height to center the login box vertically */
+    background-color: #f0f2f5;
+    /* Light background color for contrast */
+}
+
+.login-box {
+    background-color: #ffffff;
+    /* Pure white background for cleanliness */
+    padding: 40px;
+    border: 1px solid #ddd;
+    /* Lighter border color */
+    border-radius: 10px;
+    /* Increased border radius for a modern look */
+    width: 100%;
+    max-width: 400px;
+    /* Set a max-width for better control */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Subtle shadow for depth */
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    /* Smooth transition for hover effect */
+}
+
+.login-box:hover {
+    transform: translateY(-5px);
+    /* Slight lift on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    /* Deeper shadow on hover */
+}
+
+.login-box h2 {
+    margin-bottom: 20px;
+    font-size: 2em;
+    /* Larger font size for the heading */
+    color: #333;
+    /* Modern color for the heading */
+}
+
+.login-box form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    /* Added gap between form elements for better spacing */
+}
+
+.login-box input {
+    padding: 15px;
+    /* Increased padding for better touch experience */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    /* Increased border radius for a modern look */
+    font-size: 1em;
+    /* Uniform font size */
+}
+
+.register-link {
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.register-link a {
+    color: #2f4dd3;
+    /* Modern link color */
+    text-decoration: none;
+    transition: color 0.3s ease;
+    /* Smooth transition for hover effect */
+}
+
+.register-link a:hover {
+    color: #1c26b7;
+    /* Darker shade on hover */
+}
+
+.login-box button {
+    padding: 15px;
+    background-color: #2f4dd3;
+    /* Modern button color */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    /* Increased border radius for a modern look */
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    /* Smooth transition for hover effect */
+}
+
+.login-box button:hover {
+    background-color: #1c26b7;
+    /* Darker shade on hover */
+    transform: translateY(-2px);
+    /* Slight lift on hover */
+}
+
+
+
+@media only screen and (max-width: 768px) {
+
+    .login-box {
+        width: 80%;
+    }
+
+}

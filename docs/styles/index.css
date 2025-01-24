@@ -1,0 +1,315 @@
+.fondo1 {
+    position: relative;
+    background-image: url(../img/fondo_index.png);
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+
+.mainindex {
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: calc(100vh - 100px);
+    flex-direction: column;
+    height: auto;
+}
+
+.texto-encima {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+
+.texto-encima img {
+    height: 250px;
+}
+
+.boton-encima {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    background-color: #2f4dd3;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.boton-encima:hover {
+    background-color: #1c26b7;
+}
+
+.fondo-gris {
+    width: 100%;
+    background-color: #f0f0f0;
+}
+
+.container {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 50px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.text-section {
+    flex: 1;
+    margin-left: 20px; 
+    margin-right: 20px; 
+}
+
+.text-section h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.highlight {
+    font-weight: bold;
+}
+
+.text-section p {
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+hr {
+    border: none;
+    border-top: 2px solid #2f4dd3;
+    margin: 20px 0;
+    width: 50px;
+}
+
+.image-section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 100px; /* Ajusta el valor según sea necesario */
+}
+
+.image-section img {
+    max-width: 100%;
+    height: auto;
+}
+
+.text-section button {
+    bottom: 20px;
+    padding: 10px 20px;
+    background-color: #2f4dd3;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.text-section button:hover {
+    background-color: #1c26b7;
+}
+
+.entrenadores {
+    text-align: center;
+    margin-top: 30px;
+    width: 100%;
+    text-decoration: none;
+    color: black;
+    transition: color 0.3s ease, transform 0.3s ease; 
+}
+
+.entrenadores:hover {
+    transform: scale(1.2); 
+    color: #2f4dd3;
+}
+
+.entrenadores h1 {
+    font-size: 36px;
+}
+
+.container2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+}
+
+.box {
+    background-color: #f0f0f0;
+    margin: 10px;
+    width: 30%;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.box img {
+    width: auto;
+    height: 400px;
+}
+
+.box .content {
+    background-color: #e0e0e0;
+    padding: 10px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.marca-agua{
+    width: 300px;
+    transition: transform 0.3s ease; 
+}
+
+.marca-agua:hover{
+    transform: scale(1.5);
+}
+
+.div-final {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.div-final h1 {
+    text-align: center;
+    font-size: 36px;
+}
+
+@media (min-width: 768px) {
+    .image-section {
+        margin-right: 100px; /* Ajusta el valor según sea necesario */
+    }
+}
+
+
+@media (max-width: 1200px) {
+    .container {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .image-section {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .text-section {
+        margin: 0;
+    }
+}
+
+@media (max-width: 992px) {
+    .box {
+        width: 45%;
+    }
+
+    .box img {
+        height: auto;
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .box {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .entrenadores h1 {
+        font-size: 28px;
+    }
+
+    .text-section h1 {
+        font-size: 28px;
+    }
+
+    .text-section p {
+        font-size: 16px;
+    }
+
+    .mainindex {
+        padding-top: 50px;
+    }
+
+    .fondo1 {
+        height: 300px;
+    }
+
+    .texto-encima img {
+        height: 200px;
+    }
+
+    .boton-encima {
+        padding: 8px 16px;
+        bottom: 15px;
+    }
+
+    .container {
+        padding: 20px;
+    }
+
+    .container2 {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .text-section button {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media (max-width: 576px) {
+
+
+    .mainindex {
+        padding-top: 80px;
+    }
+
+    .fondo1 {
+        height: 250px;
+    }
+
+    .texto-encima img {
+        height: 150px;
+    }
+
+    .boton-encima {
+        padding: 6px 12px;
+        bottom: 10px;
+    }
+
+    .text-section h1 {
+        font-size: 24px;
+    }
+
+    .entrenadores h1 {
+        font-size: 24px;
+    }
+
+    .text-section p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 576px) {
+    .marca-agua {
+        display: none;
+    }
+}

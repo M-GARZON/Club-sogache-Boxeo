@@ -1,0 +1,85 @@
+main {
+    padding-top: 700px;
+    padding-bottom: 500px;
+}
+
+#usuario-form {
+    background-color: #ffffff;
+    padding: 40px;
+    border: 1px solid #ddd; 
+    border-radius: 10px; 
+    width: 100%;
+    max-width: 400px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+    margin: 50px auto;
+
+}
+
+#usuario-form input[type="checkbox"] {
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 2em; 
+    color: #333; 
+}
+
+#usuario-form:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+}
+
+#usuario-form label {
+    display: block;
+    margin-bottom: 10px;
+    color: #333; 
+}
+
+#usuario-form input[type="text"],
+#usuario-form input[type="email"],
+#usuario-form input[type="password"],
+#usuario-form select {
+    width: 100%;
+    padding: 15px; 
+    border: 1px solid #ccc;
+    border-radius: 5px; 
+    font-size: 1em;
+    margin-bottom: 20px; 
+}
+
+#usuario-form button[type="submit"] {
+    padding: 15px;
+    background-color: #2f4dd3; 
+    color: #fff;
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease; 
+}
+
+#usuario-form button[type="submit"]:hover {
+    background-color: #1c26b7; 
+    transform: translateY(-2px); /* Slight lift on hover */
+
+}
+
+#usuario-form input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+
+@media only screen and (max-width: 768px) { 
+
+
+    #usuario-form{
+
+        width: 80%;
+        margin-top: 100px;
+
+    }
+
+
+}

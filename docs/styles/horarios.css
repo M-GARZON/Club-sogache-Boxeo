@@ -1,0 +1,40 @@
+.clasimage{
+    padding-top: 200px;
+    position: relative;
+}
+
+.boton-encima {
+    position: absolute; 
+    bottom: 70px;
+    left: 50%; 
+    transform: translateX(-50%); 
+    padding: 12px 24px; 
+    background-color: #2f4dd3; 
+    color: white; 
+    border: 2px solid #1c26b7; 
+    border-radius: 5px; 
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+.boton-encima:hover {
+    background-color: #1c26b7;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+
+@media (max-width: 768px) {
+    .clasimage {
+        padding-top: 100px; 
+        width: 300px;
+        height: auto;
+    }
+
+    .boton-encima {
+        bottom: 40px; 
+        font-size: 14px; 
+    }
+}
