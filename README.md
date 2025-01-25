@@ -79,7 +79,7 @@ Este proyecto fue desarrollado por **Miguel Ángel Garzón Huerta**. Todos los d
 Para cualquier duda o sugerencia, puedes contactarme en:
 
 - 📧 **Email**: [mgarzonhuerta@gmail.com](mailto:mgarzonhuerta@gmail.com)
-- 🐙 **GitHub**: [MGarzon](https://github.com/MGarzon)
+- 🐙 **GitHub**: [M-GARZON](https://github.com/M-GARZON)
 
 ---
 
